@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Werbegeschenke</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Wählen Sie Ihr Werbegeschenk</h1>
+    </header>
+    <main>
+        <form id="gift-form" action="/select-gift" method="POST">
+            <label for="gift">Wählen Sie ein Geschenk:</label>
+            <div>
+                <input type="radio" id="gift1" name="gift" value="Geschenk1">
+                <label for="gift1">
+                    <img src="images/frankfurter.png" alt="Geschenk 1">
+                    1 Monat kostenloses Frankfurter Allgemeine Abonnement
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="gift2" name="gift" value="Geschenk2">
+                <label for="gift2">
+                    <img src="images/stuttgarter.png" alt="Geschenk 2">
+                    1 Monat kostenloses Stuttgarter Zeitung Abonnement
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="gift3" name="gift" value="Geschenk3">
+                <label for="gift3">
+                    <img src="images/sueddeutsche.png" alt="Geschenk 3">
+                    1 Monat kostenloses Süddeutsche Zeitung Abonnement
+                </label>
+            </div>
+            <button type="submit">Auswählen</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Komplexe Testautomatisierungsseite</p>
+    </footer>
+</body>
+</html>
